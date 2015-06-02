@@ -47,11 +47,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CandleData.cs" />
+    <Compile Include="Data\CandleData.cs" />
     <Compile Include="CandleDataCsvMap.cs" />
-    <Compile Include="PatternIdentifier.cs" />
+    <Compile Include="Data\NormalizedCandleData.cs" />
+    <Compile Include="Data\NormalizedCandleDataCollection.cs" />
+    <Compile Include="Data\PatternIdentifier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CandleDataReader.cs" />
+    <Compile Include="Utils\MathUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

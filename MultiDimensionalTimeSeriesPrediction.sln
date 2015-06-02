@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalTimeSeriesPrediction", "MultiDimensionalTimeSeriesPrediction\MultiDimensionalTimeSeriesPrediction.csproj", "{E7B0B61C-2BA7-4FF5-8652-78B83A2CF0D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalTimeSeriesPredictionTests", "MultiDimensionalTimeSeriesPredictionTests\MultiDimensionalTimeSeriesPredictionTests.csproj", "{6F25C06C-A9D4-4A49-8987-14F368F13F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E7B0B61C-2BA7-4FF5-8652-78B83A2CF0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B0B61C-2BA7-4FF5-8652-78B83A2CF0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B0B61C-2BA7-4FF5-8652-78B83A2CF0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F25C06C-A9D4-4A49-8987-14F368F13F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F25C06C-A9D4-4A49-8987-14F368F13F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F25C06C-A9D4-4A49-8987-14F368F13F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F25C06C-A9D4-4A49-8987-14F368F13F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
