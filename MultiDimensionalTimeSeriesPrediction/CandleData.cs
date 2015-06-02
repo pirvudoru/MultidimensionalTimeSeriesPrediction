@@ -19,4 +19,9 @@
             return new PatternIdentifier(this).DeterminePattern();
         }
     }
+
+    public class NormalizedCandleData
+    {
+        public double Close { get; set; }
+    }
 }
